@@ -6,10 +6,10 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
-    "axios": "^0.18.0",
     "@babel/core": "7.0.0-beta.40",
+    "axios": "^0.18.0",
     "react": "^16.3.0-alpha.1",
-    "react-native": "0.54.0"
+    "react-native": "^0.54.1"
   },
   "devDependencies": {
     "eslint-config-rallycoding": "^3.2.0"
