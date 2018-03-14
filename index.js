@@ -1,7 +1,7 @@
 // Import a library to help create a component
 import React from 'react';
 import { AppRegistry, View, YellowBox } from 'react-native';
-import Header from './src/components/header';
+import Header from './src/components/Header';
 import AlbumList from './src/components/AlbumList';
 
 //This is to disable the React lifecycle depreciate warnings until
