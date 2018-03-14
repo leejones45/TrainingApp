@@ -9,7 +9,8 @@ import AlbumList from './src/components/AlbumList';
 YellowBox.ignoreWarnings([
   'Warning: componentWillMount is deprecated',
   'Warning: componentWillReceiveProps is deprecated',
-  'Module RCTImageLoader requires'
+  'Module RCTImageLoader requires',
+  'Class RCTCxxModule was not exported'
 ]);
 
 // Create a component
