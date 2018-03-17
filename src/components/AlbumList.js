@@ -7,7 +7,7 @@ class AlbumList extends Component {
 
     state = { albums: [] };
 
-    UNSAFE_componentWillMount() {
+    componentDidMount() {
         axios.get('https://thawing-cliffs-81254.herokuapp.com/albums')
             .then(response => this.setState({ albums: response.data }));
     }
